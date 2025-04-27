@@ -5,7 +5,7 @@ from typing import List
 class Solution:
     def largest(self, arr):
         # code here
-        large = -1
+        large = float('-inf')
         for i in arr:
             if i > large:
                 large = i
